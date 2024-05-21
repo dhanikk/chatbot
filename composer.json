@@ -1,7 +1,7 @@
 {
     "name": "itpathsolutions/chatbot",
     "description": "Live chatting with chatbot",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -19,7 +19,6 @@
             "name": "Dhanik Keraliya"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.8",
         "illuminate/support": ">=5.4"
@@ -30,5 +29,6 @@
                 "Itpathsolutions\\Chatbot\\ChatbotServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
