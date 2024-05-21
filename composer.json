@@ -20,5 +20,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "itpathsolutions/chatbot": "1.0.0"
+    }
 }
