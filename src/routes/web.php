@@ -1,5 +1,5 @@
 <?php
-    use Ips\Chatbot\Http\Controllers\ChatbotController;
+    use Itpathsolutions\Chatbot\Http\Controllers\ChatbotController;
     // YourVendor\contactform\src\routes\web.php
     Route::get('contact', function(){
         return view('chatbot::index');

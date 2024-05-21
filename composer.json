@@ -1,16 +1,16 @@
 {
-    "name": "ips/chatbot",
+    "name": "itpathsolutions/chatbot",
     "description": "Live chatting with chatbot",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Ips\\Chatbot\\": "src/"
+            "Itpathsolutions\\Chatbot\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-           "Ips\\Chatbot\\": "src/",
+           "Itpathsolutions\\Chatbot\\": "src/",
            "Tests\\": "tests/"
          }
      },

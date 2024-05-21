@@ -1,6 +1,6 @@
 <?php
    
-    namespace Ips\Chatbot;
+    namespace Itpathsolutions\Chatbot;
     use Illuminate\Support\ServiceProvider;
     class ChatbotServiceProvider extends ServiceProvider {
         public function boot()
