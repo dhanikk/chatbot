@@ -21,6 +21,14 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "itpathsolutions/chatbot": "1.0.0"
+        "php": ">=5.8",
+        "illuminate/support": ">=5.4"
+    },
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Itpathsolutions\\Chatbot\\ChatbotServiceProvider"
+            ]
+        }
     }
 }
