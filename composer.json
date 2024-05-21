@@ -1,0 +1,24 @@
+{
+    "name": "ips/chatbot",
+    "description": "Live chatting with chatbot",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ips\\Chatbot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+           "Ips\\Chatbot\\": "src/",
+           "Tests\\": "tests/"
+         }
+     },
+    "authors": [
+        {
+            "name": "Dhanik Keraliya"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
