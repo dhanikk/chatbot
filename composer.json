@@ -8,12 +8,6 @@
             "Itpathsolutions\\Chatbot\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-           "Itpathsolutions\\Chatbot\\": "src/",
-           "Tests\\": "tests/"
-         }
-     },
     "authors": [
         {
             "name": "Dhanik Keraliya"
