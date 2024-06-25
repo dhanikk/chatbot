@@ -13,10 +13,9 @@ To install the Chatbot package, use Composer:
 
 ```bash
 composer require itpathsolutions/chatbot
+```
 
 ## Usage
-
-To install the Chatbot package, use Composer:
 
 To use the chatbot:
 switch to the following route : http://localhost:8000/contact
