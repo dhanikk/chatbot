@@ -8,12 +8,12 @@
             $this->loadRoutesFrom(__DIR__.'/routes/web.php');
             $this->loadViewsFrom(__DIR__.'/resources/views', 'chatbot');
             $this->mergeConfigFrom(
-                __DIR__.'/Config/config.php', 'ipschatbot'
+                __DIR__.'/Config/config.php', 'chatbot'
             );
     
             // Publish configuration file to the application's config directory
             $this->publishes([
-                __DIR__.'/Config/config.php' => config_path('ipschatbot.php'),
+                __DIR__.'/Config/config.php' => config_path('chatbot.php'),
             ]);
         }
         public function register()

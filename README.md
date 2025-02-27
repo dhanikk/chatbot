@@ -18,6 +18,7 @@ The **Chatbot** package provides a powerful and customizable AI-driven chatbot s
 - [Features](#features)  
 - [Supported Versions](#supported-versions)  
 - [Installation](#installation)  
+- [Environment Configuration](#environment-configuration)  
 - [Using the Chatbot](#using-the-chatbot)  
 - [FAQs](#faqs)  
 - [Contributing](#contributing)  
@@ -44,6 +45,14 @@ The **Chatbot** package provides a powerful and customizable AI-driven chatbot s
 ## **Installation**  
 To install the package, open the terminal and run the following command:  
 <pre><code class="language-bash">composer require itpathsolutions/chatbot</code></pre>  
+
+## **Environment Configuration**  
+After installing, add the following API key to your .env file:  
+<pre><code class="language-bash">OPEN_AI_API_KEY=your_openai_api_key_here</code></pre>  
+Make sure to replace your_openai_api_key_here with your actual OpenAI API Key.  
+
+Once done, clear the cache to apply changes:  
+<pre><code class="language-bash">php artisan config:clear</code></pre>  
 
 ### **Using the Chatbot**  
 Once installed, switch to the following route to access the chatbot:  

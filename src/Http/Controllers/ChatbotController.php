@@ -10,7 +10,7 @@ class ChatbotController extends Controller
     public function sendrequest(Request $request){
     
         $chatengine = 'gpt-4o';
-        $apiKey = \Config::get('ipschatbot.OPEN_AI_API_KEY');
+        $apiKey = config('chatbot.OPEN_AI_API_KEY');
 
         $messages[0]["role"] = "user";
         $messages[0]["content"] = $request->content;
