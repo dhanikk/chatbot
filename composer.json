@@ -13,6 +13,21 @@
             "name": "Dhanik Keraliya"
         }
     ],
+    "keywords": [
+        "chatbot",
+        "laravel",
+        "ai",
+        "nlp",
+        "bot",
+        "automation",
+        "customer-support",
+        "messenger",
+        "conversation",
+        "assistant",
+        "machine-learning",
+        "support-bot",
+        "php"
+    ],
     "require": {
         "php": ">=5.8",
         "illuminate/support": ">=5.4"
@@ -24,5 +39,5 @@
             ]
         }
     },
-    "version": "1.0.0"
+    "version": "1.0.1"
 }
