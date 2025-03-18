@@ -107,4 +107,5 @@ To test this package, run the following command:
 <a href="https://packagist.org/packages/itpathsolutions/mysqlinfo" target="_blank">MySQL Info Package 🚀</a>  
 <a href="https://packagist.org/packages/itpathsolutions/phpinfo" target="_blank">PHP Info Package 🚀</a>  
 <a href="https://packagist.org/packages/itpathsolutions/role-wise-session-manager" target="_blank">Role Wise Session Manager Package 🚀</a>    
-<a href="https://packagist.org/packages/itpathsolutions/authinfo" target="_blank">Authinfo - User Login Tracker 🚀</a>  
+<a href="https://packagist.org/packages/itpathsolutions/authinfo" target="_blank">Authinfo - User Login Tracker 🚀</a>    
+<a href="https://packagist.org/packages/itpathsolutions/redisinfo" target="_blank">Redis Info Package 🚀</a>  
